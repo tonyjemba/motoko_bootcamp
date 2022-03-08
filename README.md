@@ -1,2 +1,2 @@
 # motoko_bootcamp
-motoko challenges
+motoko challenges, using motoko playground
