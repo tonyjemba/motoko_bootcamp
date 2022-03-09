@@ -1,8 +1,8 @@
 
 actor{
-    public func day_of_the_week(n: Nat): async ?Text {
+    public func day_of_the_week(n: Nat): async Text {
 
-        let days : [?Text]= ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+        let days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday","null"];
 
         
             if (n == 1){return days[0]};
@@ -13,7 +13,8 @@ actor{
             if (n == 6){return days[5]};
             if (n == 7){return days[6]};
 
-            return null;
+        return days[7];
+            
 
     }
 
