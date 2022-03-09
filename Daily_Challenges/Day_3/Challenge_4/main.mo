@@ -1,4 +1,4 @@
-import B "mo:base/Buffer";
+
 
 actor{
     public func nat_opt_to_nat(n: ?Nat, m: Nat): async ?Nat {
